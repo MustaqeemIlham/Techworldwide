@@ -1,0 +1,286 @@
+th,
+td {
+
+    padding: 0 75px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    padding: 20px 80px;
+    white-space: nowrap;
+    width: 110%;
+}
+
+#image {
+    padding-right: 50px;
+}
+
+.simpan {
+    position: relative;
+    bottom: -40px;
+    width: 95%;
+    height: auto;
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 30px;
+    text-align: center;
+    overflow: hidden;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.purchase-container {
+    height: auto;
+    position: relative;
+}
+
+
+#actionbtn {
+    padding: 2px 15px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+}
+
+#actionbtn:hover {
+    background-color: #045fc0;
+    transform: scale(1.05);
+}
+
+#search-item {
+    position: relative;
+    left: 65%;
+    border-radius: 20px;
+    height: 40px;
+    width: 20%;
+    top: 40px;
+    text-align: center;
+    border: 1px solid rgba(102, 100, 100, 0.5);
+}
+
+#productaddbtn {
+    position: absolute;
+    top: 35px;
+    height: 40px;
+}
+
+.bud {
+    position: absolute;
+    left: 88%;
+    border: #ddd;
+    border-radius: 20px;
+    width: 10%;
+    height: 7%;
+    top: 40px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    background: transparent;
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.bud:hover {
+    transform: scale(1.1);
+}
+
+.bud a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+#addIcon {
+    position: relative;
+    top: 4px;
+    width: 20px;
+    height: 20px;
+}
+
+.search-box input {
+    position: absolute;
+    left: 65%;
+    border-radius: 20px;
+    width: 20%;
+    height: 40px;
+    top: 5px;
+    text-align: center;
+    border: 1px solid rgba(102, 100, 100, 0.5);
+}
+
+.update {
+    position: absolute;
+    width: 700px;
+    min-height: 700px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(168, 167, 167, 0.2);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+.drv input {
+    width: 35%;
+    height: 40%;
+    border: none;
+    outline: none;
+    padding: 15px 20px;
+    border-radius: 15px;
+    border: 1px solid rgba(10, 5, 5, 0.2);
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: black;
+    box-shadow: 0 5pv 15pv rgba(0, 0, 0, 0.05);
+}
+
+.drv .ctr {
+    position: relative;
+    top: 70px;
+    left: 50px;
+
+}
+
+.drv .ctrem {
+    position: relative;
+    left: 370px;
+}
+
+.drv .ctrpass {
+    position: relative;
+    top: 68px;
+    left: 50px;
+}
+
+.drv .ctrpn {
+    position: relative;
+    left: 370px;
+}
+
+.drv .ctradd {
+    position: relative;
+    top: 58px;
+    left: 50px;
+    width: 130%;
+    height: 20%;
+}
+
+.drv .ctrst {
+    position: relative;
+    left: 430px;
+    width: 75%;
+    height: 20%;
+    top: -10px
+}
+
+.drv .ctrct {
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.drv .ctrpc {
+    position: relative;
+    left: 370px;
+    top: -17px
+}
+
+.ctrbud {
+    position: relative;
+    border: #ddd;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 40%;
+    height: 50px;
+    align-items: center;
+    left: 30%;
+    margin-top: 30px;
+    background: transparent;
+}
+
+.ctrbud:hover {
+    background: rgba(173, 173, 173, 0.438);
+}
+
+.ctrdsc {
+    position: relative;
+    left: 30%;
+    width: 50%;
+}
+
+.ctrdsc textarea {
+    resize: none;
+}
+
+
+.ctrfile {
+    position: relative;
+    width: 75%;
+    height: 200px;
+    bottom: -50px;
+    left: 65px;
+}
+
+#myFile {
+    text-align: center;
+    align-items: center;
+    position: relative;
+}
+
+.ctrnm {
+
+    position: relative;
+    top: 30px;
+    left: 50px;
+
+}
+
+.ctrqt {
+    position: relative;
+    left: 370px;
+    top: -35px;
+}
+
+.ctrbr {
+    position: relative;
+    top: 15px;
+    left: 50px;
+}
+
+.ctrty {
+    position: relative;
+    left: 370px;
+    top: -55px;
+}
+
+.ctrpt {
+    position: relative;
+    left: 360px;
+    top: -80px;
+    width: 100%;
+}
+
+.ctrpr {
+    position: relative;
+    left: 50px;
+    top: -10px;
+}
+
+#savebtn {
+    position: relative;
+    top: -35px;
+}
+

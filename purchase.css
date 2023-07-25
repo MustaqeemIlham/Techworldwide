@@ -1,0 +1,91 @@
+th, td {
+    padding: 10px;
+    padding-right: 50px;
+    padding-left:60px;
+    border-bottom: 1px solid #ddd;
+}
+.purchase-container {
+    height: auto;
+    position: relative;
+}
+
+#managebtn {
+    display: flex;
+    flex-direction: row;
+    padding: 36px 80px 20px 60px;
+}
+
+#managebtn button, input[type="submit"] {
+    background-color: transparent;
+    border: 0px;
+}
+
+#managebtn button a {
+    text-decoration: none;
+}
+
+#managebtn button a:hover {
+    color: white;
+}
+
+#managebtn button, #managebtn input {
+    padding: 5px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    text-decoration: none;
+    border-radius: 15px;
+    cursor: pointer;
+    user-select: none;
+}
+
+#managebtn button:hover, #managebtn input:hover {
+    background-color: #045fc0;
+    transform: scale(1.05);
+}
+
+
+.keep{
+    position: relative;
+    bottom: -75px;
+    width: 97%;
+    height: 100%;
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 30px;
+    text-align: center;
+    overflow: hidden;
+    right: -25px;
+}
+
+
+.search-box input{
+    position: absolute;
+    left: 65%;
+    border-radius: 20px;
+    width: 20%;
+    height: 4.5%;
+    top: 40px;
+    text-align: center;
+    border: 1px solid rgba(102, 100, 100, 0.5);
+}
+
+#search-item {
+    position: relative;
+    left: 65%;
+    border-radius: 20px;
+    height: 40px;
+    width: 20%;
+    top: 40px;
+    text-align: center;
+    border: 1px solid rgba(102, 100, 100, 0.5);
+}
+
+
+
+
+
+
+

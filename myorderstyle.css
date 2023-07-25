@@ -1,0 +1,313 @@
+.sidebar {
+    border: 2px solid black;
+    border-radius: 1.5rem;
+    margin-left: 20px;
+    width: 15%;
+    float: left;
+    position: relative;
+}
+
+.sidebar-item {
+    width: 70%;
+    display: block;
+    margin: auto;
+    font-size: 14px;
+}
+
+.sidebar-item ul li {
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.account-content {
+    width: 70%;
+    min-height: 3%;
+    position: relative;
+    margin-left: 250px;
+    padding: 350px 50px;
+    left: 20px;
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(168, 167, 167, 0.2);
+    border-radius: 3rem;
+    top: -180px;
+    padding-right: 40px;
+}
+
+#detail-product {
+    overflow-y: auto;
+}
+
+#account-head {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.vl {
+    border: 1px solid rgba(91, 89, 89, 0.5);
+    height: 700px;
+    opacity: 50%;
+    position: absolute;
+    left: 17%;
+    top: inherit;
+    margin-left: 4px;
+}
+
+.account-profile {
+    border: 1px solid rgba(91, 89, 89, 0.5);
+    border-radius: 3rem;
+    position: absolute;
+    left: 4rem;
+    top: 6rem;
+    height: 270px;
+    max-height: 270px;
+    width: 43%;
+    display: flex;
+    float: left;
+}
+
+.account-address {
+    position: absolute;
+    border: 1px solid rgba(91, 89, 89, 0.5);
+    display: block;
+    border-radius: 3rem;
+    right: 4rem;
+    top: 6rem;
+    height: 270px;
+    max-height: 270px;
+    width: 44%;
+}
+
+.account-order {
+    position: absolute;
+    border: 1px solid rgba(91, 89, 89, 0.5);
+    display: block;
+    border-radius: 3rem;
+    right: 6%;
+    bottom: 2rem;
+    height: 260px;
+    max-height: 270px;
+    width: 88%;
+}
+
+
+.tab button {
+    background-color: inherit;
+    color: black;
+    padding: 8px 30px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.tab button:hover {
+    text-decoration: underline;
+}
+
+.tab1 {
+    color: rgb(12, 10, 10);
+    float: left;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding-right: 0px;
+    padding-left: 5px;
+    font-size: 17px;
+    width: 25%;
+    position: relative;
+    top: -300px;
+    margin-left: 5px;
+    margin-right: -20px;
+}
+
+
+
+.ctr {
+    position: relative;
+    top: -250px;
+}
+
+.tabvoucher {
+    color: rgb(12, 10, 10);
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding-right: 50px;
+    padding-left: 5px;
+    font-size: 17px;
+    width: 25%;
+    position: relative;
+    top: -300px;
+    right: -350px;
+    overflow: auto;
+}
+
+/* updated order history*/
+
+.orderhistory {
+    width: 70%;
+    height: 900px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+    margin-left: 250px;
+    left: 20px;
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(168, 167, 167, 0.2);
+    border-radius: 3rem;
+    bottom: 50px;
+}
+
+
+td,
+th {
+    border-bottom: 1px solid rgba(168, 167, 167, 0.2);
+    
+}
+
+.history {
+    border: 1px solid black;
+}
+
+
+#dtl {
+    width: 400px;
+    position: relative;
+}
+
+#pct {
+    position: relative;
+    padding-right: 30px;
+}
+
+#prc {
+    position: relative;
+    padding-right: 80px;
+}
+
+#dtl1 {
+    padding-right: 250px;
+    position: relative;
+    top: 90px;
+}
+
+#pct1 {
+    position: relative;
+    padding-right: 30px;
+    top: 80px;
+}
+
+#prc1 {
+    position: relative;
+    padding-right: 80px;
+    top: 85px;
+}
+
+#bt {
+    position: relative;
+    padding-left: 60px;
+    align-items: center;
+
+}
+
+.btnivc,
+.btncncl {
+    cursor: pointer;
+    border-radius: 30px;
+    color: black;
+    height: 35;
+    text-align: center;
+    width: 110;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(168, 167, 167, 0.2);
+}
+
+.tblship {
+    position: absolute;
+    left: 40px;
+    line-height: 25px;
+}
+
+.tblcancel {
+    
+    margin-left: 50px;
+}
+
+.historytbl {
+    position: relative;
+    left: 180px;
+    top: 50px;
+    font-family: 'poppins', sans-serif;
+    line-height: 30px;
+}
+
+.tblvoucher {
+    position: relative;
+    left: 200px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'poppins', sans-serif;
+}
+
+.details {
+    position: absolute;
+    left: 25px;
+    top: 65px;
+    line-height: 50px;
+    height: 50%;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'poppins', sans-serif;
+}
+
+.tblrecent {
+    position: relative;
+    top: 70px;
+    left: 180px;
+    font-family: 'poppins', sans-serif;
+    line-height: 30px;
+}
+
+#tblrec {
+    position: relative;
+    top: -80px;
+}
+
+.tab {
+    margin-top: 15px;
+}
+
+.greet {
+    margin-left: 25px;
+    padding-top: 20px;
+}
+
+.tblcancel {
+    position: relative;
+    left: 100px;
+}
+
+
+
+.ctr1 {
+    position: relative;
+    top: -170px;
+
+}

@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.container {
+    min-width: 75%;
+    height: 85%;
+    padding: 25px 30px;
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(168, 167, 167, 0.2);
+    position: relative;
+    border-radius: 50px;
+}
+
+
+.container .title {
+    color: #264143;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+}
+
+.container .title:hover::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    left: 0;
+    height: 5px;
+    width: 100px;
+    border-radius: 2px;
+}
+
+.user-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    top: 60px;
+    padding-bottom: 250px;
+    padding-right: 70px;
+    padding-left: 70px;
+
+}
+
+.form-group {
+    width: 40%;
+    margin: 50px 10px;
+}
+
+.form-group input {
+    width: 95%;
+    height: 40%;
+    border: none;
+    outline: none;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid rgba(10, 5, 5, 0.2);
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: black;
+    box-shadow: 0 5pv 15pv rgba(0, 0, 0, 0.05);
+    display: flex;
+
+    flex-direction: column;
+}
+
+
+
+.action_btn input {
+    color: #264143;
+    border: 1px solid black;
+    border-radius: 25px;
+    font-size: 100%;
+    font-weight: bold;
+    bottom: 90px;
+    right: -120px;
+    cursor: pointer;
+    transition: all 100ms ease-in-out;
+    position: absolute;
+}
+
+/*.action_btn:hover {
+    scale: 1.05;
+    background-color: #264143;
+    color: #fff;
+}
+
+.action_btn:active {
+    scale: 0.95;
+}*/
+
+
+
+.hhh textarea {
+    width: 167%;
+    border-radius: 15px;
+    border: 1px solid rgba(10, 5, 5, 0.2);
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: black;
+    box-shadow: 0 5pv 15pv rgba(0, 0, 0, 0.05);
+    position: relative;
+    right: -58px;
+    padding: 15px 15px;
+    outline: none;
+    resize: none;
+}
+
+
+.hhh span {
+    position: relative;
+    right: -60px;
+}
+
+.sub {
+    position: relative;
+    right: -83%;
+    bottom: -50px;
+    width: 160px;
+    border: #ddd;
+    text-align: center;
+    cursor: pointer;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #04AA6D;
+}
+
+.sub input{
+  color: white;
+  background-color: #04AA6D;
+  font-size: 18px;
+
+}
+
+#em {
+    position: relative;
+    top: 65%;
+   
+}

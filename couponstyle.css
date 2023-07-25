@@ -1,0 +1,159 @@
+/*body{background:#F06292 !important}
+.coupon{border-radius: 12px;box-shadow: 5px 8px 10px #d6d5d533}
+body{background: rgb(251, 253, 255)}
+.code:hover{background: green;color: #fff;cursor: pointer}*/
+.voucher-banner {
+    height: auto;
+    position: relative;
+}
+.ctrcpn {
+    position: relative;
+    width: 90%;
+    padding-bottom: 30px;
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(168, 167, 167, 0.2);
+    border-radius: 3rem;
+    margin: 15px 10px 20px 0px;
+}
+
+.cpn {
+    position: relative;
+    width: 55%;
+    height: 10%;
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(168, 167, 167, 0.2);
+    border-radius: 3rem;
+    left: 380px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+th,
+td {
+    left: 55px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.vouchtitle {
+    margin-left: 80px;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.close {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+.btn {
+    position: relative;
+    right: -200px;
+    bottom: 5px;
+}
+
+
+h4 {
+    width: fit-content;
+    margin-top: 20px;
+    margin-left: 10px;
+    
+}
+
+#cpn {
+    position: relative;
+    left: 80px;
+    width: 85%;
+}
+
+.line {
+    border: 1px solid #ddd;
+    position: absolute;
+    left: 230px;
+    top: 30px;
+    height: 130px;
+
+}
+
+h1 {
+    position: relative;
+    top: 20px;
+
+}
+
+.hk {
+    position: relative;
+    right: -600px;
+    top: -55px;
+    width: 20%;
+    text-align: center;
+}
+
+.hk p {
+    position: relative;
+    top: 25px;
+}
+
+#idvouch {
+    position: absolute;
+    left: 60px;
+    top:25px;
+    width: 140px;
+    height: 140px;
+}
+
+#wrd {
+    position: relative;
+    right: -300px;
+    bottom: -30px;
+    font-size: 20px;
+}
+
+.nn {
+    position: relative;
+    bottom: 20px;
+}
+
+
+.bud {
+    position: absolute;
+    right: 60px;
+    border: #ddd;
+    border-radius: 20px;
+    padding: 10px 45px;
+    top: 0px;
+    font-weight: bold;
+    cursor: pointer;
+    background: transparent;
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.bud ion-icon {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    color: black;
+    width: 20px;
+    height: 20px;
+}
+
+.bud:hover {
+ transform: scale(1.05);
+}
+
+.search-box input {
+    position: absolute;
+    left: 65%;
+    border-radius: 20px;
+    width: 20%;
+    height: 4.5%;
+    top: 40px;
+    text-align: center;
+    border: 1px solid rgba(102, 100, 100, 0.5);
+}

@@ -1,0 +1,167 @@
+.ctrrcp{
+    width:  700px;
+    min-height: 900px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 50px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 25px 45px rgba(0,0,0,0.3);
+    border: 1px solid rgba(255,255,255,0.5); 
+    border-right: 1px solid rgba(255,255,255,0.2);
+    border-bottom: 1px solid  rgba(168, 167, 167, 0.2);
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.address p{
+   margin-bottom: -9px;
+   position: relative;
+   bottom: -50px;
+   right: -50px;
+}
+
+.invoiceno p{
+    position: relative;
+    margin-bottom: -9px;
+    bottom: 52px;
+    right: -570px;
+ }
+
+.shipaddress p{
+    margin-bottom: -9px;
+    position: relative;
+    bottom: -40px;
+    right: -50px;
+    font-weight: bold;
+}
+
+.invoicedate{
+    margin-bottom: -9px;
+    position: relative;
+    bottom: 85px;
+    right: -472px;
+}
+
+#time{
+    position: relative;
+    right: -14px;
+}
+
+#order{
+    position: relative;
+    right: -15px;
+}
+
+#voucher{
+    position: relative;
+    right: -15px;
+}
+
+.tableitem {
+    position: relative;
+    bottom: 40px;
+    min-width: 90%;
+    min-height: 100%;
+    text-align: left;
+    right: -40px;
+    overflow: hidden;
+}
+
+td, th{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    padding-top: 10px; 
+}
+
+.foot{
+    position: relative;
+    bottom: -10px;
+    right: -50px;
+    margin-top: auto;
+}
+
+
+.print {
+    position: relative;
+    border: #ddd;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 25%;
+    height: 40px;
+    align-items: center;
+    bottom: 45px;
+    right: -460px;
+}
+
+.print a{
+    text-decoration: none;
+    color: black;
+}
+
+.ctrdiv{
+    position: relative;
+    bottom: -20px;
+}
+
+.note{
+    position: relative;
+    right: -90px;
+    bottom: -2px;
+}
+
+
+.ctrdiv h2{
+   margin-bottom: -35px;
+   right: -50px;
+   position: relative;   
+}
+
+.price{
+    margin-top: auto;
+    margin-bottom: auto;
+    position: relative;
+    right: -440px;
+    top: -20px;
+}
+
+table{
+    overflow: auto;
+}
+
+#homebtn {
+    color: blue;
+    text-decoration: underline;
+    font-style: italic;
+    cursor: pointer;
+}
+
+#homebtn:hover {
+    color: black;
+}
+
+@media print {
+    #homebtn {
+        display: none;
+    }
+
+    .print {
+        visibility:hidden;
+    }
+
+    .ctrrcp{
+        box-shadow: none;
+        border: 1px solid rgba(14, 13, 13, 0.5); 
+    }
+    
+}
+
+/*.try{
+    width: 10%;
+    min-height: 300px;
+    border: 1px solid red;
+}*/
+
+.tableitem th,.tableitem td {
+    padding-left: 30px;
+}

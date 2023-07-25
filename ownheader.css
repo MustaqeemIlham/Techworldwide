@@ -1,0 +1,243 @@
+@font-face {
+    font-family: High Def;
+    src: url(/webpage/fonts/High-Def.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: sherman;
+    src: url(/webpage/fonts/Sherman-Display.ttf) format("truetype");
+}
+
+.navbar {
+    position: sticky;
+    padding: 60px;
+    top: 0px;
+    background-color: #000000;
+    z-index: 2;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 15;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    left: -100px;
+    top: 30px;
+    transform: scale(1,1.5);
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family:'High Def';
+    
+}
+
+.logo {
+  position: absolute;
+  top:10px;
+  left: 80px;
+  transform: scale(0.7);
+  cursor: pointer;
+}
+
+.navbar ul li a ion-icon {
+    padding-bottom: 2px;
+    transform: scale(1.5, 1.1);
+    cursor: pointer;
+    color: white;
+}
+
+#profile {
+    cursor: pointer;
+}
+
+.navbar ul li:after {
+    content: "";
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+    z-index: -1;
+}
+
+.navbar ul li:hover:after {
+    width: 100%;
+}
+
+.product-cart {
+
+    height: 150px;
+    width: 95%;
+    display: flex;
+    margin: 15px auto;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(208, 206, 206, 0.904);
+}
+
+#img-container {
+    border-radius: 20%;
+    box-shadow: 0 0px 10px #ffffff7e;
+    min-width: 100px;
+    height: 100px;
+    margin: 25px 0 25px 10px;
+}
+
+#img-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.head-desc-container {
+    width: 70%;
+    max-height: 100%;
+    margin: 5px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    line-height: 15px;
+
+}
+
+.head-desc-container p {
+    padding-left: 8px;
+    position: relative;
+}
+
+#price {
+    left: 85px;
+}
+
+.qtt-container {
+    display: flex;
+}
+
+.sidebar-c {
+    height: 100%;
+    /* 100% Full-height */
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    /* Stay in place */
+    z-index: 3;
+    /* Stay on top */
+    top: 0;
+    right: 0;
+    background-color: #111;
+    /* Black*/
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 60px;
+    /* Place content 60px from the top */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidebar */
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidebar-c .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 45px;
+    margin-left: 50px;
+  }
+
+  .footer {
+    padding: 20px 0;
+    background-color: black;
+    width: 100%;
+    height: 15%;
+    position: relative;
+  }
+  
+  .footer .social {
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    top: 25px;
+  }
+  
+  .footer .social a {
+    font-size: 34px;
+    color: inherit;
+    border: 2px solid #fff;
+    width: 50px;
+    height: 50px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 10px;
+    border-radius: 35%;
+    opacity: 0.7;
+    position: relative;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    transition: all 0.2s ease-in;
+    outline: 1px solid white;
+    z-index: 10;
+  }
+  
+  @keyframes shake {
+    10% {
+      transform: rotate(-15deg);
+    }
+  
+    20% {
+      transform: rotate(15deg);
+    }
+  
+    30% {
+      transform: rotate(-15deg);
+    }
+  
+    40% {
+      transform: rotate(15deg);
+    }
+  }
+  
+  #twitter:hover {
+    background: linear-gradient(#568fe6, #3f5efb);
+  }
+  
+  #facebook:hover {
+    background: linear-gradient(#3f5efb, #2d4adb);
+  }
+  
+  #insta:hover {
+    background: linear-gradient(290deg, #3f5efb, #fc466b);
+  }
+  
+  .footer .social a:hover {
+    opacity: 1;
+    outline-offset: 4px;
+    animation: shake 0.35s;
+  }
+  
+  .footer .address p {
+    margin-left: 3vb;
+    position: absolute;
+    color: #fff;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 12px;
+    word-spacing: 2px;
+    bottom: 0;
+    font-weight: bold;
+    line-height: 1.6;
+  }

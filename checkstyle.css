@@ -1,0 +1,110 @@
+.btnCheckout {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+}
+  
+.btnCheckout:hover {
+    background-color: #45a049;
+}
+
+#main-textarea {
+    position: absolute;
+    margin:10px;
+    bottom: 9rem;
+    right: 46vh;
+    border-width: 2px;
+    resize: none;
+    padding: 0 10px;
+}
+
+#second-textarea {
+    border-radius: 1.5rem;
+    text-align: left;
+    padding:10px 5px;
+    border-width: 2px;
+    resize: none;
+}
+
+.btnPlaceOrder{
+    width: 70%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 25px; /* make border round */
+    font-weight: bold;
+    border: 2px solid #000000;
+    background: transparent;
+    color:#000000;
+    cursor: pointer; /* indicate a link, cursor changed */
+    position: relative;
+    overflow: hidden;
+    position: relative;
+    bottom: 10px;
+    right:-250px;
+}
+
+.btnPlaceOrder:hover {
+    background-color: #29ac29;
+}
+
+.btnDetails{
+    width: 30%;
+    padding: 9px;
+    text-align: center;
+    border-radius: 25px; /* make border round */
+    font-weight: bold;
+    border: 2px solid #000000;
+    background: transparent;
+    color:#000000;
+    cursor: pointer; /* indicate a link, cursor changed */
+    position: relative;
+    overflow: hidden;
+}
+
+.btnDetails:hover {
+    background-color: #29ac29;
+}
+
+.aboutus-font {
+   position: relative;
+   float:left;
+   width: 90%;
+   top: 50%;
+}
+
+h3 {
+    position: sticky;
+    writing-mode:vertical-lr;
+    display: inline;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    padding:60px;
+    word-spacing: 2px;
+    letter-spacing: 1.2px;
+    transform: rotate(180deg);
+    border-left: 2px solid black;
+    height: 95%;
+    text-align: center;
+}
+
+.co-container {
+    position: relative;
+}
+
+.co-item {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

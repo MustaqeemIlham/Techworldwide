@@ -1,0 +1,192 @@
+.update {
+    position: absolute;
+    width: 700px;
+    min-height: 700px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(168, 167, 167, 0.2);
+    left: 27%;
+    top: 50px;
+}
+
+body {
+    font-family: "Sofia", sans-serif;
+}
+
+.drv input {
+    width: 35%;
+    height: 40%;
+    border: none;
+    outline: none;
+    padding: 15px 20px;
+    border-radius: 15px;
+    border: 1px solid rgba(10, 5, 5, 0.2);
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: black;
+    box-shadow: 0 5pv 15pv rgba(0, 0, 0, 0.05);
+}
+
+.drv .ctr1 {
+    position: relative;
+    top: 77px;
+    left: 50px;
+
+}
+
+.drv .ctrem {
+    position: relative;
+    left: 370px;
+}
+
+.drv .ctrpass {
+    position: relative;
+    top: 76px;
+    left: 50px;
+}
+
+.drv .ctrpn {
+    position: relative;
+    left: 370px;
+}
+
+.drv .ctradd {
+    position: relative;
+    top: 67px;
+    left: 50px;
+    width: 130%;
+    height: 20%;
+}
+
+.drv .ctrst {
+    position: relative;
+    left: 430px;
+    width: 75%;
+    height: 20%;
+    top: -10px
+}
+
+.drv .ctrct {
+    position: relative;
+    top: 59px;
+    left: 50px;
+}
+
+.drv .ctrpc {
+    position: relative;
+    left: 370px;
+    top: -17px;
+}
+
+.ctrbud {
+    position: relative;
+    border: #ddd;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 40%;
+    height: 50px;
+    align-items: center;
+    left: 30%;
+    top: 45px;
+}
+
+
+.ctrfile {
+    position: relative;
+    width: 200%;
+    height: 200px;
+    bottom: -50px;
+    right: -11%;
+}
+
+#myFile {
+    text-align: center;
+    align-items: center;
+    position: relative;
+}
+
+.ctrnm {
+
+    position: relative;
+    top: 30px;
+    left: 50px;
+
+}
+
+.ctrqt {
+    position: relative;
+    left: 370px;
+    top: -35px;
+}
+
+.ctrbr {
+    position: relative;
+    top: 38px;
+    left: 50px;
+}
+
+.ctrty {
+    position: relative;
+    left: 370px;
+    top: -30px;
+}
+
+.ctrpt {
+    position: relative;
+    right: -17%;
+    width: 170%;
+}
+
+.update1 {
+    position: absolute;
+    width: 700px;
+    min-height: 500px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(168, 167, 167, 0.2);
+    left: 27%;
+    top: 50px;
+
+}
+
+#detailsbtn {
+    position: relative;
+    bottom: -80px;
+}
+
+input[type='submit'] {
+    background: transparent;
+}
+
+input[type='submit']:hover {
+    background: rgba(240, 240, 240, 0.842);
+}
+
+
+.update2 {
+    position: absolute;
+    width: 700px;
+    min-height: 500px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(168, 167, 167, 0.2);
+    left: 32%;
+    top: 210px;
+}
+
+.kwl {
+    position: relative;
+    right: -15px;
+}
